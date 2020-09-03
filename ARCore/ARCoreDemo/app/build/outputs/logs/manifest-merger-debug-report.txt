@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\90a2dba295dff64871e93d171cadcd0a\sceneform-ux-1.15.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\95c08fb3fa401d53cae5ef675ec34787\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a39a435bd39b1078bae2168bf65d7d08\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\d28ef9dfc3d33c8cb7768fea58cdc71f\core-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\afac6ed6ec996e00fb0e6552a16ead5e\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\75f6eb2db263115b96af2df74a819c54\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\228aeab939fb030ac4d27083b2bc8a1f\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\925e34225115f1c5e7aefdf9fb1ec5dc\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cb2d7f220b20c341744623cb19d06d51\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\10b01db4df7bd61cf502abfcbf6ffe56\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\13c2c0f4c30e32f13e621ffa83dd57d9\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\457ab4593b8bb356131cb45c51023733\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\f4dea8007a8a8f679980cabdb87378d5\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\ecd30d5a6ccd797595013e23126656af\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\7863a6c0b2a57ff17f12c55728e33e6a\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9ea1dd05939e5d7623826a57b2ef84ab\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\60b12387f29266fd45e5af260fc17ebd\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\197badd17df96117e7dc4762d9751a83\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1c7f0bfa38795dafd19e12cef3a36f35\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\c34233f4b5be69046ee151ffcb863512\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\4af00cd9b9c9c59d22ece8504292bd3b\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf189848f9d2fb1066ed1a03c16fdb72\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\0e7207fe480470c6d80d07efaf5d94cf\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\aea2bb577cfb8efa5c9719a0bd6e47b0\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\48178503f22592aa61975ec85a562803\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a41c7abb78e683c99ba2d1b6ab6118ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\437d27f4706adb3f90a443e6c36f7513\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\507176bd40d5ed6162c0653ecc2fd961\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\577e67c1847255525d518517e61f79e8\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\291704e4809a079397848165864e830d\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\81e7af4932d932360acbf43ad366196b\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:rendering:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\abec9370bba16cd64b480a90aeb959e3\rendering-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\40559ac4c63334099278b20e4987a6fe\sceneform-base-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1a3a2af1c8977d2f3706a2083fbc58d0\filament-android-1.15.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:17:1-46:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+	package
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:18:5-37
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:17:5-51
+	android:versionCode
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:1-56:12
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:16:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:23:22-62
+uses-feature#0x00030000
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:5-78
+	android:glEsVersion
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:19-51
+	android:required
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:52-75
+uses-feature#android.hardware.camera.ar
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:5-86
+	android:required
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:61-84
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:19-60
+application
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:31:5-55:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\95c08fb3fa401d53cae5ef675ec34787\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\95c08fb3fa401d53cae5ef675ec34787\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\c34233f4b5be69046ee151ffcb863512\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\c34233f4b5be69046ee151ffcb863512\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:30:5-44:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:34:9-41
+	tools:ignore
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:37:9-48
+	android:icon
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:33:9-45
+	android:allowBackup
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:32:9-36
+	android:theme
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:35:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:36:9-45
+meta-data#com.google.ar.core
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:9-81
+	android:value
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:54-78
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:20-53
+activity#com.example.ARCoreDemo.MainActivity
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:43:9-54:20
+	android:screenOrientation
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:48:13-47
+	android:label
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:45:13-45
+	android:exported
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:49:13-36
+	android:configChanges
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:46:13-59
+	android:theme
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:44:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:50:13-53:29
+action#android.intent.action.MAIN
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:52:27-74
+uses-sdk
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\90a2dba295dff64871e93d171cadcd0a\sceneform-ux-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\90a2dba295dff64871e93d171cadcd0a\sceneform-ux-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\95c08fb3fa401d53cae5ef675ec34787\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\95c08fb3fa401d53cae5ef675ec34787\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a39a435bd39b1078bae2168bf65d7d08\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a39a435bd39b1078bae2168bf65d7d08\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\d28ef9dfc3d33c8cb7768fea58cdc71f\core-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\d28ef9dfc3d33c8cb7768fea58cdc71f\core-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\afac6ed6ec996e00fb0e6552a16ead5e\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\afac6ed6ec996e00fb0e6552a16ead5e\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\75f6eb2db263115b96af2df74a819c54\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\75f6eb2db263115b96af2df74a819c54\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\228aeab939fb030ac4d27083b2bc8a1f\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\228aeab939fb030ac4d27083b2bc8a1f\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\925e34225115f1c5e7aefdf9fb1ec5dc\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\925e34225115f1c5e7aefdf9fb1ec5dc\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cb2d7f220b20c341744623cb19d06d51\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cb2d7f220b20c341744623cb19d06d51\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\10b01db4df7bd61cf502abfcbf6ffe56\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\10b01db4df7bd61cf502abfcbf6ffe56\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\13c2c0f4c30e32f13e621ffa83dd57d9\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\13c2c0f4c30e32f13e621ffa83dd57d9\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\457ab4593b8bb356131cb45c51023733\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\457ab4593b8bb356131cb45c51023733\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\f4dea8007a8a8f679980cabdb87378d5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\f4dea8007a8a8f679980cabdb87378d5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\ecd30d5a6ccd797595013e23126656af\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\ecd30d5a6ccd797595013e23126656af\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\7863a6c0b2a57ff17f12c55728e33e6a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\7863a6c0b2a57ff17f12c55728e33e6a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9ea1dd05939e5d7623826a57b2ef84ab\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9ea1dd05939e5d7623826a57b2ef84ab\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\60b12387f29266fd45e5af260fc17ebd\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\60b12387f29266fd45e5af260fc17ebd\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\197badd17df96117e7dc4762d9751a83\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\197badd17df96117e7dc4762d9751a83\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1c7f0bfa38795dafd19e12cef3a36f35\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1c7f0bfa38795dafd19e12cef3a36f35\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\c34233f4b5be69046ee151ffcb863512\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\c34233f4b5be69046ee151ffcb863512\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\4af00cd9b9c9c59d22ece8504292bd3b\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\4af00cd9b9c9c59d22ece8504292bd3b\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf189848f9d2fb1066ed1a03c16fdb72\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf189848f9d2fb1066ed1a03c16fdb72\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\0e7207fe480470c6d80d07efaf5d94cf\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\0e7207fe480470c6d80d07efaf5d94cf\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\aea2bb577cfb8efa5c9719a0bd6e47b0\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\aea2bb577cfb8efa5c9719a0bd6e47b0\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\48178503f22592aa61975ec85a562803\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\48178503f22592aa61975ec85a562803\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a41c7abb78e683c99ba2d1b6ab6118ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\a41c7abb78e683c99ba2d1b6ab6118ea\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\437d27f4706adb3f90a443e6c36f7513\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\437d27f4706adb3f90a443e6c36f7513\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\507176bd40d5ed6162c0653ecc2fd961\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\507176bd40d5ed6162c0653ecc2fd961\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\577e67c1847255525d518517e61f79e8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\577e67c1847255525d518517e61f79e8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\291704e4809a079397848165864e830d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\291704e4809a079397848165864e830d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\81e7af4932d932360acbf43ad366196b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\81e7af4932d932360acbf43ad366196b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\abec9370bba16cd64b480a90aeb959e3\rendering-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\abec9370bba16cd64b480a90aeb959e3\rendering-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\40559ac4c63334099278b20e4987a6fe\sceneform-base-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\40559ac4c63334099278b20e4987a6fe\sceneform-base-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1a3a2af1c8977d2f3706a2083fbc58d0\filament-android-1.15.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\1a3a2af1c8977d2f3706a2083fbc58d0\filament-android-1.15.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:26:5-28:41
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:38:13-62

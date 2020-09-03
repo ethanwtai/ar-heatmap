@@ -69,7 +69,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Gltf.Importers", "Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj", "{3EA7A523-4C04-E741-EDF3-753347B8173D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.ConfigCheck", "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.ConfigCheck.csproj", "{14C3A6DD-9C0F-9FF8-4B78-32411A8375E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor", "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj", "{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor", "Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj", "{37C5188E-C958-7A3D-A275-4EC6669FA864}"
 EndProject
@@ -84,8 +84,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.XRSDK.ConfigCheck", "Microsoft.MixedReality.Toolkit.Providers.XRSDK.ConfigCheck.csproj", "{06041275-FF9D-D404-56D9-EC15B0E4332D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor", "Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj", "{A412330A-4D0F-A71C-F52B-F12786C29D99}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor", "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj", "{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor", "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj", "{8451E866-4671-7053-3079-88EE1499D3E0}"
 EndProject
@@ -231,10 +229,10 @@ Global
 		{3EA7A523-4C04-E741-EDF3-753347B8173D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA7A523-4C04-E741-EDF3-753347B8173D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA7A523-4C04-E741-EDF3-753347B8173D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14C3A6DD-9C0F-9FF8-4B78-32411A8375E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14C3A6DD-9C0F-9FF8-4B78-32411A8375E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14C3A6DD-9C0F-9FF8-4B78-32411A8375E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14C3A6DD-9C0F-9FF8-4B78-32411A8375E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{37C5188E-C958-7A3D-A275-4EC6669FA864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37C5188E-C958-7A3D-A275-4EC6669FA864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C5188E-C958-7A3D-A275-4EC6669FA864}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -263,10 +261,6 @@ Global
 		{A412330A-4D0F-A71C-F52B-F12786C29D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A412330A-4D0F-A71C-F52B-F12786C29D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A412330A-4D0F-A71C-F52B-F12786C29D99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4ABD8EE-786C-06D7-D963-440CA7F1B69F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8451E866-4671-7053-3079-88EE1499D3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8451E866-4671-7053-3079-88EE1499D3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8451E866-4671-7053-3079-88EE1499D3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU

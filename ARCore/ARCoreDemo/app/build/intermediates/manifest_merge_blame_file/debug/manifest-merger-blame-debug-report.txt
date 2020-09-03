@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3   Copyright 2018 Google LLC
+4   Licensed under the Apache License, Version 2.0 (the "License");
+5   you may not use this file except in compliance with the License.
+6   You may obtain a copy of the License at
+7
+8      http://www.apache.org/licenses/LICENSE-2.0
+9
+10   Unless required by applicable law or agreed to in writing, software
+11   distributed under the License is distributed on an "AS IS" BASIS,
+12   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13   See the License for the specific language governing permissions and
+14   limitations under the License.
+15-->
+16<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+17    package="com.ARCoreDemo"
+18    android:versionCode="1"
+19    android:versionName="1.0" >
+20
+21    <uses-sdk
+22        android:minSdkVersion="24"
+22-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+23        android:targetSdkVersion="28" />
+23-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml
+24    <!--
+25         "AR Required" apps must declare minSdkVersion ≥ 24.
+26         "AR Optional" apps must declare minSdkVersion ≥ 14
+27    -->
+28    <!-- Always needed for AR. -->
+29
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:23:5-65
+30-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:23:22-62
+31    <!-- Sceneform requires OpenGLES 3.0 or later. -->
+32    <uses-feature
+32-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:5-78
+33        android:glEsVersion="0x00030000"
+33-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:19-51
+34        android:required="true" />
+34-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:25:52-75
+35    <!--
+36         Indicates that this app requires Google Play Services for AR ("AR Required") and results in
+37         the app only being visible in the Google Play Store on devices that support ARCore.
+38         For an "AR Optional" app, remove this tag.
+39    -->
+40    <uses-feature
+40-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:5-86
+41        android:name="android.hardware.camera.ar"
+41-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:19-60
+42        android:required="true" />
+42-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:29:61-84
+43
+44    <application
+44-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:31:5-55:19
+45        android:allowBackup="false"
+45-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:32:9-36
+46        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+46-->[com.android.support:support-compat:28.0.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\9c8ff58cd6168fc208585a04cafaacd9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@drawable/ic_launcher"
+49-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:33:9-45
+50        android:label="@string/app_name"
+50-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:34:9-41
+51        android:theme="@style/AppTheme"
+51-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:35:9-40
+52        android:usesCleartextTraffic="false" >
+52-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:36:9-45
+53
+54        <!--
+55             Indicates that this app requires Google Play Services for AR ("AR Required") and causes
+56             the Google Play Store to download and intall Google Play Services for AR along with
+57             the app. For an "AR Optional" app, specify "optional" instead of "required".
+58        -->
+59        <meta-data
+59-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:9-81
+60            android:name="com.google.ar.core"
+60-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:20-53
+61            android:value="required" />
+61-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:41:54-78
+62
+63        <activity
+63-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:43:9-54:20
+64            android:name="com.example.ARCoreDemo.MainActivity"
+64-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:44:13-63
+65            android:configChanges="orientation|screenSize"
+65-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:46:13-59
+66            android:exported="true"
+66-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:49:13-36
+67            android:label="@string/app_name"
+67-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:45:13-45
+68            android:screenOrientation="locked"
+68-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:48:13-47
+69            android:theme="@style/Theme.AppCompat.NoActionBar" >
+69-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:47:13-63
+70            <intent-filter>
+70-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:50:13-53:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:51:17-69
+71-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:51:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:52:17-77
+73-->D:\Github\ar-heatmap\ARCore\ARCoreDemo\app\src\main\AndroidManifest.xml:52:27-74
+74            </intent-filter>
+75        </activity>
+76        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+77        <meta-data
+77-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:33:9-35:41
+78            android:name="com.google.ar.core.min_apk_version"
+78-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:34:13-62
+79            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+79-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:35:13-38
+80        <activity
+80-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:37:9-43:80
+81            android:name="com.google.ar.core.InstallActivity"
+81-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:38:13-62
+82            android:configChanges="keyboardHidden|orientation|screenSize"
+82-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:39:13-74
+83            android:excludeFromRecents="true"
+83-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:40:13-46
+84            android:exported="false"
+84-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:41:13-37
+85            android:launchMode="singleTop"
+85-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:42:13-43
+86            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+86-->[com.google.ar:core:1.15.0] C:\Users\ethan\.gradle\caches\transforms-2\files-2.1\cf483fa6dca1c6737e4036afc5b64e2c\core-1.15.0\AndroidManifest.xml:43:13-77
+87    </application>
+88
+89</manifest>

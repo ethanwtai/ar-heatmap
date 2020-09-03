@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rounded_bg.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\drawable-xxhdpi\\rounded_bg.xml"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_heatmap.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\layout\\heatmap.xml"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_bg.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\drawable-xxhdpi\\settings_bg.xml"
+    },
+    {
+        "merged": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_ar.xml.flat",
+        "source": "D:\\Github\\ar-heatmap\\ARCore\\ARCoreDemo\\app\\src\\main\\res\\layout\\content_ar.xml"
+    }
+]
