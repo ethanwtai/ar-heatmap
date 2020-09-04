@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Colorschemes">
+      <UniqueIdentifier>{375d2fb2-4416-4c51-bf65-bae6e7f75445}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeatmapBuild.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\heatmap_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Blues.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\BrBG.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\BuGn.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\BuPu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\GnBu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\gray.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Greens.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Greys.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Oranges.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\OrRd.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PiYG.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PRGn.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PuBu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PuBuGn.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PuOr.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\PuRd.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Purples.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\RdBu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\RdGy.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\RdPu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\RdYlBu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\RdYlGn.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Reds.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\Spectral.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\YlGn.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\YlGnBu.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\YlOrBr.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+    <ClCompile Include="colorschemes\YlOrRd.c">
+      <Filter>Colorschemes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
