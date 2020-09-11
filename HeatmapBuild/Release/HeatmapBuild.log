@@ -1,0 +1,40 @@
+﻿  Blues.c
+  BrBG.c
+  BuGn.c
+  BuPu.c
+  GnBu.c
+  gray.c
+  Greens.c
+  Greys.c
+  Oranges.c
+  OrRd.c
+  PiYG.c
+  PRGn.c
+  PuBu.c
+  PuBuGn.c
+  PuOr.c
+  PuRd.c
+  Purples.c
+  RdBu.c
+  RdGy.c
+  RdPu.c
+  Compiling...
+  RdYlBu.c
+  RdYlGn.c
+  Reds.c
+  Spectral.c
+  YlGn.c
+  YlGnBu.c
+  YlOrBr.c
+  YlOrRd.c
+  HeatmapBuild.c
+  heatmap_gen.cpp
+  The contents of <variant> are available only with C++17 or later.
+D:\Github\ar-heatmap\HeatmapBuild\generators\heatmap_gen.cpp(307,29): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Github\ar-heatmap\HeatmapBuild\generators\heatmap_gen.cpp(316,33): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+  lodepng.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 588 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  HeatmapBuild.vcxproj -> D:\Github\ar-heatmap\HeatmapBuild\Release\HeatmapBuild.exe

@@ -10,14 +10,26 @@ public class HeatmapUI : MonoBehaviour
     public InputField widthInput, heightInput, TileRatioXInput, TileRatioYInput, ColumnsInput, RowsInput, ColorschemeInput, ImageInput;
     public Button FilenameInput, Generate;
     public Text file, filePlaceholder;
+    public Image heatmap;
+
     private string numbers = "0123456789";
     private Process heatmapGenerator;
+    private ProcessStartInfo psInfo = new ProcessStartInfo();
+    private Sprite hmImport;
+    private string generatorLocation, outputLocation, heatmapLocation;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        //Show only the placeholder for the button
+        generatorLocation = Application.dataPath + "\\..\\..\\..\\HeatmapBuild\\Release\\HeatmapBuild.exe";
+        outputLocation = Application.dataPath + "\\..\\..\\..\\HeatmapBuild\\example_output";
+        
+        //Show only the placeholder for the button so it acts like a text field
         file.gameObject.SetActive(false);
+        //Don't show the heatmap placeholder
+        heatmap.gameObject.SetActive(false);
+        
         //Initialize the buttons
         FilenameInput.onClick.AddListener(() => ButtonCall(FilenameInput));
         Generate.onClick.AddListener(() => ButtonCall(Generate));
@@ -54,11 +66,6 @@ public class HeatmapUI : MonoBehaviour
 
     }
     
-    public void Hide()
-    {
-        gameObject.SetActive(false);
-    }
-    
     private char ValidateInput(string validChars, char inputChar)
     {
         if (validChars.IndexOf(inputChar) != -1)
@@ -84,15 +91,39 @@ public class HeatmapUI : MonoBehaviour
         if (b == Generate)
         {
             Heatmap();
+            ShowHeatmap();
         }
     }
+
+    //Generate the heatmap based on the inputs
     private void Heatmap()
     {
-        heatmapGenerator = new Process();
-        heatmapGenerator.StartInfo.FileName = Application.dataPath + "../../../generators/heatmap_gen";
-        heatmapGenerator.StartInfo.Arguments = widthInput.text + " " + heightInput.text + " " +
+        heatmapLocation = outputLocation + "\\" + ImageInput.text + ".png";
+        //Generate the heatmap from the data input
+        //To not have CMD stay open, change /K to /C and get rid of WaitForExit()
+        psInfo.FileName = "CMD.EXE";
+        psInfo.Arguments = "/K " + generatorLocation + " " + widthInput.text + " " + heightInput.text + " " +
             TileRatioXInput.text + " " + TileRatioYInput.text + " " + ColumnsInput.text + " " +
-            RowsInput.text + " " + file.text + " " + ColorschemeInput.text + " > example_output/" + ImageInput.text + ".png";
+            RowsInput.text + " " + file.text + " " + ColorschemeInput.text + " > " + heatmapLocation;
+        heatmapGenerator = new Process();
+        heatmapGenerator.StartInfo = psInfo;
         heatmapGenerator.Start();
+        
+        //Debug
+        heatmapGenerator.WaitForExit();
+    }
+
+    //Display the heatmap generated
+    private void ShowHeatmap()
+    {
+        if (System.IO.File.Exists(heatmapLocation))
+        {
+            hmImport = Resources.Load<Sprite>(heatmapLocation);
+            heatmap.sprite = hmImport;
+            heatmap.gameObject.SetActive(true);
+        } else
+        {
+            UnityEngine.Debug.LogError("Could not load heatmap.\n");
+        }
     }
 }
