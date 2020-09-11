@@ -1,0 +1,7 @@
+Usage:
+  D:/Github/ar-heatmap/heatmap_image_generator/HeatmapImageGeneratorDemo/Assets/../../../HeatmapBuild/Release/HeatmapBuild.exe image_width image_height tile_ratio_x tile_ratio_y num_data_cols num_data_rows csv_data_filename [colorscheme]
+
+  To get a list of available ../colorschemes, run
+  D:/Github/ar-heatmap/heatmap_image_generator/HeatmapImageGeneratorDemo/Assets/../../../HeatmapBuild/Release/HeatmapBuild.exe -l
+  The default colorscheme is Spectral_mixed.
+

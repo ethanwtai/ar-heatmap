@@ -10,24 +10,25 @@ public class HeatmapUI : MonoBehaviour
     public InputField widthInput, heightInput, TileRatioXInput, TileRatioYInput, ColumnsInput, RowsInput, ColorschemeInput, ImageInput;
     public Button FilenameInput, Generate;
     public Text file, filePlaceholder;
-    public Image heatmap;
+    public GameObject heatmap;
+    public Canvas menu;
 
     private string numbers = "0123456789";
     private Process heatmapGenerator;
     private ProcessStartInfo psInfo = new ProcessStartInfo();
-    private Sprite hmImport;
+    private Sprite hmImport = null;
     private string generatorLocation, outputLocation, heatmapLocation;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        generatorLocation = Application.dataPath + "\\..\\..\\..\\HeatmapBuild\\Release\\HeatmapBuild.exe";
-        outputLocation = Application.dataPath + "\\..\\..\\..\\HeatmapBuild\\example_output";
-        
+        generatorLocation = Application.dataPath + "/../../../HeatmapBuild/Release/HeatmapBuild.exe";
+        outputLocation = Application.dataPath + "/Resources";
+
         //Show only the placeholder for the button so it acts like a text field
         file.gameObject.SetActive(false);
-        //Don't show the heatmap placeholder
+        //Don't show the heatmap 
         heatmap.gameObject.SetActive(false);
         
         //Initialize the buttons
@@ -98,28 +99,34 @@ public class HeatmapUI : MonoBehaviour
     //Generate the heatmap based on the inputs
     private void Heatmap()
     {
-        heatmapLocation = outputLocation + "\\" + ImageInput.text + ".png";
-        //Generate the heatmap from the data input
-        //To not have CMD stay open, change /K to /C and get rid of WaitForExit()
+        heatmapLocation = outputLocation + "/" + ImageInput.text + ".png";
+        //Generate the heatmap from the data input (/K for debug)
         psInfo.FileName = "CMD.EXE";
-        psInfo.Arguments = "/K " + generatorLocation + " " + widthInput.text + " " + heightInput.text + " " +
+        psInfo.Arguments = "/C " + generatorLocation + " " + widthInput.text + " " + heightInput.text + " " +
             TileRatioXInput.text + " " + TileRatioYInput.text + " " + ColumnsInput.text + " " +
             RowsInput.text + " " + file.text + " " + ColorschemeInput.text + " > " + heatmapLocation;
         heatmapGenerator = new Process();
         heatmapGenerator.StartInfo = psInfo;
         heatmapGenerator.Start();
         
-        //Debug
-        heatmapGenerator.WaitForExit();
+        //heatmapGenerator.WaitForExit();
     }
 
     //Display the heatmap generated
     private void ShowHeatmap()
     {
-        if (System.IO.File.Exists(heatmapLocation))
+        //@TODO for some reason, ImportAsset and Resources.Load<Sprite>() aren't detecting the generated png image at runtime. 
+        // I am not going to fix this on Windows because I am switching over to Android
+        AssetDatabase.Refresh();
+        AssetDatabase.ImportAsset("Assets/Resources/" + ImageInput.text + ".png");
+        TextureImporter importer = AssetImporter.GetAtPath("Assets/Resources/" + ImageInput.text + ".png") as TextureImporter;
+        importer.textureType = TextureImporterType.Sprite;
+        AssetDatabase.WriteImportSettingsIfDirty("Assets/Resources/" + ImageInput.text + ".png");
+        hmImport = Resources.Load<Sprite>(ImageInput.text);
+        if (hmImport != null)
         {
-            hmImport = Resources.Load<Sprite>(heatmapLocation);
-            heatmap.sprite = hmImport;
+            heatmap.GetComponent<Image>().sprite = hmImport;
+            menu.gameObject.SetActive(false);
             heatmap.gameObject.SetActive(true);
         } else
         {
