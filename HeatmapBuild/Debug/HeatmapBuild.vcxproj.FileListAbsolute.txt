@@ -1,2 +1,0 @@
-D:\Github\ar-heatmap\HeatmapBuild\Debug\HeatmapBuild.exe
-D:\Github\ar-heatmap\HeatmapBuild\Debug\HeatmapBuild.pdb
